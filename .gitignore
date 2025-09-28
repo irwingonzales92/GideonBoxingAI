@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# ML Models
+*.h5
+*.pkl
+*.pth
+*.mlmodel
+*.tflite
+*.onnx
+
+# Data files
+*.mp4
+*.mov
+*.avi
+videos/
+data/
+*.csv
+*.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env
+
+# Node (for labeling app)
+node_modules/
+.next/
+out/
+dist/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Credentials
+google_token.json
+*credentials*.json
+*token*.json
+*.key
+*.pem
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Build
+build/
+*.egg-info/
